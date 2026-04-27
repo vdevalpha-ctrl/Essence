@@ -1,0 +1,13 @@
+    # Essence monorepo workspace — hatch multi-project
+    # Run: pip install -e ".[all]" from each sub-package directory,
+    # or use: hatch env create && hatch run uais:chat
+    [tool.hatch.envs.uais]
+    dependencies = [
+            "essence-core",
+"essence-agents",
+"essence-memory",
+"essence-ml",
+"essence-server",
+"essence-channels",
+"essence-cli",
+    ]
