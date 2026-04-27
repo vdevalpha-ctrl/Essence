@@ -1,0 +1,14 @@
+{
+  "id": "tomm",
+  "label": "Theory of Mind",
+  "category": "intelligence",
+  "description": "6-dimension cognitive state modeling (load, valence, focus, stress, clarity)",
+  "enabled": true,
+  "builtin": true,
+  "system_prompt": "",
+  "mcp_server": "",
+  "tags": [
+    "core",
+    "intelligence"
+  ]
+}

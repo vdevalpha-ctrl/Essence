@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "id": "sched_1776604379_61e8a9",
+      "label": "Test Morning Brief",
+      "cron": "0 8 * * *",
+      "schedule_hint": "Daily at 08:00",
+      "action": "chat",
+      "args": {
+        "message": "Good morning! Give me a status summary."
+      },
+      "enabled": true,
+      "last_run": null,
+      "last_result": null,
+      "created": 1776604379.925015
+    }
+  ]
+}

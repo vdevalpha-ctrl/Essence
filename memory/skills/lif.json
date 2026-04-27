@@ -1,0 +1,14 @@
+{
+  "id": "lif",
+  "label": "Living Intent Fabric",
+  "category": "intelligence",
+  "description": "4-horizon temporal intent tracking with TGS scoring",
+  "enabled": true,
+  "builtin": true,
+  "system_prompt": "",
+  "mcp_server": "",
+  "tags": [
+    "core",
+    "intelligence"
+  ]
+}

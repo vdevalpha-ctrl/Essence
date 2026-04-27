@@ -1,0 +1,14 @@
+{
+  "id": "code_exec",
+  "label": "Code Executor",
+  "category": "tool",
+  "description": "Sandboxed Python/JS execution for code output verification",
+  "enabled": false,
+  "builtin": true,
+  "system_prompt": "You can execute code when asked. Show the result of execution.",
+  "mcp_server": "",
+  "tags": [
+    "tool"
+  ],
+  "updated": 1776557952.7451296
+}

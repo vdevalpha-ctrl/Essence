@@ -1,0 +1,50 @@
+[
+  {
+    "session": "373fa866",
+    "timestamp": 1776652311.1472192,
+    "model": "qwen3:4b",
+    "tok_in": 0,
+    "tok_out": 0,
+    "cost": 0.0
+  },
+  {
+    "session": "29a3a2b7",
+    "timestamp": 1776684235.802231,
+    "model": "qwen3:4b",
+    "tok_in": 0,
+    "tok_out": 0,
+    "cost": 0.0
+  },
+  {
+    "session": "36aa4a3b",
+    "timestamp": 1776684326.9888742,
+    "model": "qwen3:4b",
+    "tok_in": 0,
+    "tok_out": 0,
+    "cost": 0.0
+  },
+  {
+    "session": "f896db4d",
+    "timestamp": 1776686353.0324585,
+    "model": "qwen3:4b",
+    "tok_in": 0,
+    "tok_out": 0,
+    "cost": 0.0
+  },
+  {
+    "session": "ea438070",
+    "timestamp": 1776686392.9788072,
+    "model": "qwen3:4b",
+    "tok_in": 0,
+    "tok_out": 0,
+    "cost": 0.0
+  },
+  {
+    "session": "572132c9",
+    "timestamp": 1776686690.685631,
+    "model": "qwen3:4b",
+    "tok_in": 0,
+    "tok_out": 0,
+    "cost": 0.0
+  }
+]

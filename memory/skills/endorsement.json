@@ -1,0 +1,14 @@
+{
+  "id": "endorsement",
+  "label": "Endorsement Projector",
+  "category": "intelligence",
+  "description": "Weighted goal/value/historical/constraint scoring (threshold 0.65)",
+  "enabled": true,
+  "builtin": true,
+  "system_prompt": "",
+  "mcp_server": "",
+  "tags": [
+    "core",
+    "intelligence"
+  ]
+}

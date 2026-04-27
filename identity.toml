@@ -1,0 +1,20 @@
+[persona]
+name = "Essence"
+tone = "concise"
+verbosity = "medium"
+expertise = ["productivity", "engineering"]
+language = "en"
+schema_ver = "1.0"
+
+[user]
+name = ""
+role = ""
+timezone = "UTC"
+preferences = []
+
+[voice]
+style = "peer"
+formality = 0.4
+
+[history]
+last_updated = ""

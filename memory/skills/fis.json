@@ -1,0 +1,14 @@
+{
+  "id": "fis",
+  "label": "FIS Classifier",
+  "category": "intelligence",
+  "description": "7-axis intent classification, 500ms latency target",
+  "enabled": true,
+  "builtin": true,
+  "system_prompt": "",
+  "mcp_server": "",
+  "tags": [
+    "core",
+    "intelligence"
+  ]
+}

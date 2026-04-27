@@ -1,0 +1,14 @@
+{
+  "id": "quiet_ledger",
+  "label": "Quiet Ledger",
+  "category": "ledger",
+  "description": "Accountable silence \u2014 every action and abstention recorded with rollback tiers",
+  "enabled": true,
+  "builtin": true,
+  "system_prompt": "",
+  "mcp_server": "",
+  "tags": [
+    "core",
+    "ledger"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "morning_brief",
+  "label": "Morning Brief Engine",
+  "category": "intelligence",
+  "description": "Fatigue-adaptive daily brief (HEALTHY/WATCH/FATIGUED)",
+  "enabled": true,
+  "builtin": true,
+  "system_prompt": "",
+  "mcp_server": "",
+  "tags": [
+    "core",
+    "intelligence"
+  ]
+}

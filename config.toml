@@ -1,0 +1,75 @@
+# Essence v28.0.0 configuration  —  edit freely, re-scaffold is safe
+# Paths below are relative to the Essence workspace root (where essence.py lives).
+# You can override any path with an absolute value if needed.
+[core]
+version   = "28.0.0"
+# workspace is resolved at runtime to the directory containing essence.py.
+# Leave blank to use the auto-detected default.
+workspace = ""
+
+[inference]
+backend   = "ollama"
+model     = "qwen3:4b"
+# Override: ESSENCE_MODEL=qwen3:8b  or  ESSENCE_BACKEND=ollama
+# In-process llama-cpp-python: set ESSENCE_GGUF_PATH=/path/to/model.gguf
+
+[agent]
+thinking        = false    # enable reasoning mode
+budget          = 1024     # thinking token budget
+critic          = true     # CriticGate validation gate
+max_steps       = 12
+memory_window   = 10       # turns before distillation
+allow_outside   = false    # workspace sandbox
+autonomy_level  = 1        # 0=confirm every tool, 1=confirm destructive, 2=auto
+
+[rag]
+enabled       = true
+chunk_size    = 512        # characters per chunk
+overlap       = 64         # overlap between chunks
+top_k         = 6          # passages injected per turn
+
+[ml]
+# Relative to workspace root
+plots_dir       = "plots"
+models_dir      = "models"
+experiments_dir = "experiments"
+default_hpo     = false    # set true to enable Optuna HPO on train_model
+
+[finetune]
+# Set base_model to an HF model ID e.g. unsloth/llama-3-8b-bnb-4bit
+# Requires T2+ hardware and: pip install unsloth trl peft datasets transformers
+lora_r        = 16
+epochs        = 3
+batch_size    = 4
+
+[heartbeat]
+enabled  = true
+interval = "30m"           # default heartbeat interval
+
+[server]
+host = "0.0.0.0"
+port = 7860
+
+[memory]
+backend = "auto"           # auto | json | sqlite_vec | faiss | qdrant
+# Relative to workspace root
+path    = "memory"
+
+[mesh]
+enabled        = false
+role           = "auto"    # auto | coordinator | worker
+peer_discovery = "mdns"    # mdns | manual
+
+[search]
+# Set BRAVE_API_KEY for full web results (2,000 free calls/month)
+# Set SEARXNG_URL for self-hosted SearXNG instance
+
+[tracking]
+# Set MLFLOW_TRACKING_URI for MLflow (e.g. http://localhost:5000)
+# Set WANDB_API_KEY for Weights & Biases
+
+[channels]
+# Set env vars: TELEGRAM_BOT_TOKEN, DISCORD_WEBHOOK_URL
+
+[voice]
+enabled = false            # requires: pip install pyaudio faster-whisper kokoro-onnx

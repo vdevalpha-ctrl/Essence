@@ -1,0 +1,14 @@
+{
+  "id": "routine",
+  "label": "Routine Model",
+  "category": "cie",
+  "description": "Markov \u03b1=0.3 behavioral pattern tracker, cold-start < 50 obs",
+  "enabled": true,
+  "builtin": true,
+  "system_prompt": "",
+  "mcp_server": "",
+  "tags": [
+    "core",
+    "cie"
+  ]
+}

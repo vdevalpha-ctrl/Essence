@@ -1,0 +1,13 @@
+{
+  "id": "voice_input",
+  "label": "Voice Input",
+  "category": "tool",
+  "description": "Browser microphone \u2192 Whisper transcription",
+  "enabled": false,
+  "builtin": true,
+  "system_prompt": "",
+  "mcp_server": "",
+  "tags": [
+    "tool"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "trust_ledger",
+  "label": "Trust Ledger",
+  "category": "ledger",
+  "description": "3-axis trust (COMP/VALS/JUDG) per domain, never_graduate lock on SEVERE_VIOLATION",
+  "enabled": true,
+  "builtin": true,
+  "system_prompt": "",
+  "mcp_server": "",
+  "tags": [
+    "core",
+    "ledger"
+  ]
+}

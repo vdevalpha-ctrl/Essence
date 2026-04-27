@@ -1,0 +1,112 @@
+{
+  "servers": [
+    {
+      "id": "filesystem",
+      "label": "Filesystem (npx)",
+      "transport": "stdio",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "."
+      ],
+      "url": "",
+      "env": {},
+      "enabled": false,
+      "tools": [],
+      "last_ping": null,
+      "preset": true,
+      "description": "Read/write files via MCP. Requires Node.js."
+    },
+    {
+      "id": "memory",
+      "label": "Memory Store (npx)",
+      "transport": "stdio",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "url": "",
+      "env": {},
+      "enabled": false,
+      "tools": [],
+      "last_ping": null,
+      "preset": true,
+      "description": "Persistent key-value memory via MCP. Requires Node.js."
+    },
+    {
+      "id": "brave_search",
+      "label": "Brave Search (npx)",
+      "transport": "stdio",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-brave-search"
+      ],
+      "url": "",
+      "env": {
+        "BRAVE_API_KEY": ""
+      },
+      "enabled": false,
+      "tools": [],
+      "last_ping": null,
+      "preset": true,
+      "description": "Web search via Brave API. Requires BRAVE_API_KEY."
+    },
+    {
+      "id": "github",
+      "label": "GitHub (npx)",
+      "transport": "stdio",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "url": "",
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": ""
+      },
+      "enabled": false,
+      "tools": [],
+      "last_ping": null,
+      "preset": true,
+      "description": "GitHub API tools. Requires GITHUB_PERSONAL_ACCESS_TOKEN."
+    },
+    {
+      "id": "sqlite",
+      "label": "SQLite (npx)",
+      "transport": "stdio",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-sqlite",
+        "./memory/uais.db"
+      ],
+      "url": "",
+      "env": {},
+      "enabled": false,
+      "tools": [],
+      "last_ping": null,
+      "preset": true,
+      "description": "SQLite database access via MCP."
+    },
+    {
+      "id": "puppeteer",
+      "label": "Puppeteer / Browser",
+      "transport": "stdio",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-puppeteer"
+      ],
+      "url": "",
+      "env": {},
+      "enabled": false,
+      "tools": [],
+      "last_ping": null,
+      "preset": true,
+      "description": "Browser automation and web scraping via MCP."
+    }
+  ]
+}

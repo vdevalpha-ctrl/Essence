@@ -1,0 +1,15 @@
+{
+  "id": "anomaly",
+  "label": "Anomaly Detector",
+  "category": "cie",
+  "description": "Moving baseline ring buffers for context/focus/proposal drift",
+  "enabled": true,
+  "builtin": true,
+  "system_prompt": "",
+  "mcp_server": "",
+  "tags": [
+    "core",
+    "cie"
+  ],
+  "updated": 1776557899.5879838
+}

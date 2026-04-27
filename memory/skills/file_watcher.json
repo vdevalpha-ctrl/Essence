@@ -1,0 +1,14 @@
+{
+  "id": "file_watcher",
+  "label": "File Watcher",
+  "category": "tool",
+  "description": "Watch workspace files and inject changes into context automatically",
+  "enabled": false,
+  "builtin": true,
+  "system_prompt": "",
+  "mcp_server": "",
+  "tags": [
+    "tool"
+  ],
+  "updated": 1776557949.7335732
+}

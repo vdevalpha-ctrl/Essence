@@ -1,0 +1,14 @@
+{
+  "id": "restraint",
+  "label": "Restraint Engine",
+  "category": "intelligence",
+  "description": "ABSTAIN-first decision gating \u2014 8 pre-conditions evaluated before every action",
+  "enabled": true,
+  "builtin": true,
+  "system_prompt": "",
+  "mcp_server": "",
+  "tags": [
+    "core",
+    "intelligence"
+  ]
+}

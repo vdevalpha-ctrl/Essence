@@ -1,0 +1,14 @@
+{
+  "id": "cie",
+  "label": "CIE Scorer",
+  "category": "cie",
+  "description": "Daily interrupt budget (10/day), midnight reset",
+  "enabled": true,
+  "builtin": true,
+  "system_prompt": "",
+  "mcp_server": "",
+  "tags": [
+    "core",
+    "cie"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "web_search",
+  "label": "Web Search",
+  "category": "tool",
+  "description": "Live web search integration \u2014 inject search results into context",
+  "enabled": false,
+  "builtin": true,
+  "system_prompt": "You have access to web search. When the user asks about current events or facts, search for them.",
+  "mcp_server": "",
+  "tags": [
+    "tool"
+  ]
+}
